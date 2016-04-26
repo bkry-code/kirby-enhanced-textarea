@@ -1,0 +1,82 @@
+.field-with-textarea .field-buttons {
+  font-size: 0.85em;
+}
+.field-button-h2 {
+  font-size: 0.75em;
+}
+.field-buttons .btn {
+  padding: .5em 1.25em;
+}
+
+/* BUTTON HOVER -> */
+
+.field-with-textarea .field-buttons {
+  background: none;
+  border-top: 1px solid #EFEFEF;
+  font-size: 0.85em;
+}
+    .field-with-textarea .field-buttons .btn {
+      padding: 0;
+      width: 40px;
+      height: 30px;
+      color: rgb(119, 119, 119);
+    }
+      .field-with-textarea .field-buttons .btn:hover {
+        color: black;
+      }
+
+/* <- BUTTON HOVER */
+
+/* PAGELINK -> */
+
+.modal .pages {
+  padding: .25em;
+  background-color: #efefef;
+  width: 100%;
+}
+.modal .rootpages {
+  background-color: white;
+}
+  .modal .pages .page  {
+    border-bottom: 1px solid rgba(0, 0, 0, .075);
+    width: 100%;
+  }
+  .modal .pages .page:last-child {
+    border: none;
+  }
+    .modal .pages .page .pagename {
+      width: 100%;
+      display: table;
+    }
+      .modal .pages .page .pagename span.name {
+        padding: 0.75em 1em;
+        display: table-cell;
+        vertical-align: middle;
+      }
+      .modal .pages .page .pagename span.smallbox {
+        padding: 0.75em 1em;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        width: 3.5em;
+        border-left: 1px solid rgba(0, 0, 0, .075);
+        font-weight: bold;
+      }
+      
+       .modal .pages .page .pagename span.slidedown.open i {
+         transform: rotate(-180deg);
+       }
+      
+      .modal .pages .page span.smalllink.active:hover {
+        cursor: pointer;
+        background-color: black;
+        color: white;
+      }
+
+.modal .subpages {
+  padding: 0;
+  margin-bottom: 0;
+  display: none;
+}
+
+/* <- PAGELINK */
