@@ -10,6 +10,10 @@
 ##### With selection: Inserts link with selected text
 ![Pagelink button with selection](pagelink2.gif?raw=true)
 
+## Optimized toolbar with smaller buttons and hover effects
+
+![Optimized toolbar](style.gif?raw=true)
+
 ## Headline 1 button
 
 ![Headline 1 button](h1.gif?raw=true)
