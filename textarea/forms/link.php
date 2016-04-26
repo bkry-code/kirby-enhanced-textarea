@@ -14,9 +14,13 @@ return function($page, $textarea) {
     'text' => array(
       'label' => 'editor.link.text.label',
       'type'  => 'text',
-      'help'  => 'editor.link.text.help',
       'icon'  => 'font'
     ),
+    'popup' => array(
+      'label' => 'Popup',
+      'type'  => 'toggle',
+      'default' => 'false'
+    )
   ));
 
   $form->data('textarea', 'form-field-' . $textarea);

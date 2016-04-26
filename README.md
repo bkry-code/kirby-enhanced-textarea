@@ -10,6 +10,11 @@
 ##### With selection: Inserts link with selected text
 ![Pagelink button with selection](pagelink2.gif?raw=true)
 
+## Visual popup toggle
+
+![Visual popup toggle](popup.gif?raw=true)
+
+
 ## Optimized toolbar with smaller buttons and hover effects
 
 ![Optimized toolbar](style.gif?raw=true)
