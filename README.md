@@ -5,9 +5,11 @@
 ## Pagelink button
 
 ![Pagelink button](pagelink1.gif?raw=true)
+
 *Automatically gets the page name without selection*
 
 ![Pagelink button](pagelink2.gif?raw=true)
+
 *Takes the selected text and adds the page link*
 
 ## Headline 1 button
