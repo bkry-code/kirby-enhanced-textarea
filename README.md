@@ -1,11 +1,22 @@
 # Kirby Enhanced Textarea
 
-![Enhanced Textarea](preview.gif?raw=true "Preview")
+...with the following additions:
 
-- Headline 1 button
-- Headline 2 button
-- Pagelink button
-- Optimized style
+## Pagelink button
+
+![Pagelink button](pagelink1.gif?raw=true)
+*Automatically gets the page name without selection*
+
+![Pagelink button](pagelink2.gif?raw=true)
+*Takes the selected text and adds the page link*
+
+## Headline 1 button
+
+![Headline 1 button](h1.gif?raw=true)
+
+## Headline 2 button
+
+![Headline 2 button](h2.gif?raw=true)
 
 ## Installation
 
