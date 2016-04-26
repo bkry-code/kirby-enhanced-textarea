@@ -4,13 +4,13 @@
 
 ## Pagelink button
 
-![Pagelink button](pagelink1.gif?raw=true)
+![Pagelink button without selection](pagelink1.gif?raw=true)
 
-**Without selection: ** Inserts link and page name
+Without selection: Inserts link and page name
 
-![Pagelink button](pagelink2.gif?raw=true)
+![Pagelink button with selection](pagelink2.gif?raw=true)
 
-**With selection: ** Inserts link with selected text
+With selection: Inserts link with selected text
 
 ## Headline 1 button
 
