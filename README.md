@@ -35,7 +35,7 @@ Simply put the "textarea" folder into your site/fields folder. The default texta
 
 You can change the headline buttons to any headline from 1-6 in the `site/config.php`. The icons and function will adjust accordingly.
 
-**Example: **
+Example:
 ````
 c::set('textarea.h1', 'h2');
 c::set('textarea.h2', 'h3');
