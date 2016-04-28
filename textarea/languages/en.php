@@ -8,8 +8,9 @@
 
 return [
 
-  'buttons.h1.label'         => 'Headline 1',
-  'buttons.h2.label'         => 'Headline 2',
+  'buttons.h1.label'         => 'Headline ' . substr(c::get('textarea.h1', 'h1'), 1),
+  'buttons.h2.label'         => 'Headline ' . substr(c::get('textarea.h2', 'h2'), 1),
+  'buttons.h3.label'         => 'Headline ' . substr(c::get('textarea.h3', 'h3'), 1),
   'buttons.bold.label'       => 'Bold',
   'buttons.bold.text'        => 'Bold text',
   'buttons.italic.label'     => 'Italic',

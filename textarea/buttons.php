@@ -67,21 +67,33 @@ class Buttons {
 
 }
 
+$h1 = c::get('textarea.h1', 'h1');
+$h2 = c::get('textarea.h2', 'h2');
+$h3 = c::get('textarea.h3', 'h3');
+
 buttons::$setup = array(
   'h1' => array(
     'label'    => $this->translation['buttons.h1.label'],
-    'btext'    => '1',
+    'btext'    => substr($h1, 1),
     'text'     => ' ',
-    'shortcut' => 'meta+1',
-    'template' => '# {text}',
+    'shortcut' => 'meta+' . substr($h1, 1),
+    'template' => str_repeat("#",substr($h1, 1)) . ' {text}',
     'icon'     => 'header'
   ),
   'h2' => array(
     'label'    => $this->translation['buttons.h2.label'],
-    'btext'    => '2',
+    'btext'    => substr($h2, 1),
     'text'     => ' ',
-    'shortcut' => 'meta+2',
-    'template' => '## {text}',
+    'shortcut' => 'meta+' . substr($h2, 1),
+    'template' => str_repeat("#",substr($h2, 1)) . ' {text}',
+    'icon'     => 'header'
+  ),
+  'h3' => array(
+    'label'    => $this->translation['buttons.h3.label'],
+    'btext'    => substr($h3, 1),
+    'text'     => ' ',
+    'shortcut' => 'meta+' . substr($h3, 1),
+    'template' => str_repeat("#",substr($h3, 1)) . ' {text}',
     'icon'     => 'header'
   ),
   'bold' => array(
