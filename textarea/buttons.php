@@ -35,9 +35,15 @@ class Buttons {
       }
 
       $icon  = '<i class="icon fa fa-' . $button['icon'] . '"></i>';
+      
+      if(!empty($button['btext'])) {
+        $btext = '<span class="btext">' . $button['btext'] . '</span>';
+      } else {
+        $btext = null;
+      }
       if ($button['icon'])
       $html .= '<li class="field-button-' . $key . '">';
-      $html .= html::tag('button', $icon, array(
+      $html .= html::tag('button', $icon . $btext , array(
         'type'                 => 'button',
         'tabindex'             => '-1',
         'title'                => @$button['label'] . ' (' . @$button['shortcut'] . ')',
@@ -64,6 +70,7 @@ class Buttons {
 buttons::$setup = array(
   'h1' => array(
     'label'    => $this->translation['buttons.h1.label'],
+    'btext'    => '1',
     'text'     => ' ',
     'shortcut' => 'meta+1',
     'template' => '# {text}',
@@ -71,6 +78,7 @@ buttons::$setup = array(
   ),
   'h2' => array(
     'label'    => $this->translation['buttons.h2.label'],
+    'btext'    => '2',
     'text'     => ' ',
     'shortcut' => 'meta+2',
     'template' => '## {text}',
