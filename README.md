@@ -33,7 +33,7 @@ Simply put the "textarea" folder into your site/fields folder. The default texta
 
 ## Configuration
 
-You can change the headline buttons to any headline from 1-6 in the `site/config.php`. The function as well as the icon number will adjust accordingly.
+You can change the headline buttons to any headline from 1-6 in the `site/config.php`. The function, the shortcut (meta+1, meta+2, ...) as well as the icon number will adjust accordingly.
 
 Example:
 ````
