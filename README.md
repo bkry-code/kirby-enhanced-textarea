@@ -26,10 +26,10 @@ You don't need all the buttons? No problem, just use `buttons:`
 ````
 test:
   type: textarea
-    buttons:
-     - h1
-     - h2
-     - bold
-     - olist
-     - link
+  buttons:
+    - h1
+    - h2
+    - bold
+    - olist
+    - link
 ````
