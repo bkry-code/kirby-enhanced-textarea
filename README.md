@@ -1,5 +1,7 @@
 # Kirby Enhanced Textarea
 
+![Preview](preview.png?raw=true)
+
 ...with the following additions:
 
 ## Pagelink button
