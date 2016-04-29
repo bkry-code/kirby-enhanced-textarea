@@ -28,7 +28,7 @@
 
     <div class="pages">
       <div class="rootpages">
-        <? 
+        <?php 
         $subpages = site()->children();
         if (!function_exists("listpages")) {
           function listpages($subpages) {
