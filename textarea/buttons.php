@@ -110,6 +110,13 @@ buttons::$setup = array(
     'template' => '*{text}*',
     'icon'     => 'italic'
   ),
+  'list' => array(
+    'label'    => $this->translation['buttons.list.label'],
+    'text'     =>' ',
+    'shortcut' => 'meta+l',
+    'template' => '- {text}',
+    'icon'     => 'list'
+  ),
   'link' => array(
     'label'    => $this->translation['buttons.link.label'],
     'shortcut' => 'meta+shift+l',

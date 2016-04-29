@@ -15,6 +15,7 @@ return [
   'buttons.bold.text'        => 'Bold text',
   'buttons.italic.label'     => 'Italic',
   'buttons.italic.text'      => 'Italic text',
+  'buttons.list.label'       => 'List',
   'buttons.link.label'       => 'Link',
   'buttons.pagelink.label'   => 'Pagelink',
   'buttons.email.label'      => 'E-Mail',
