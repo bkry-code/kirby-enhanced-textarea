@@ -1,6 +1,6 @@
 # Kirby Enhanced Textarea
 
-![Preview](preview.png?raw=true)
+![Preview](preview.png?raw=true =500x)
 
 ...with the following additions:
 
