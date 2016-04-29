@@ -110,12 +110,19 @@ buttons::$setup = array(
     'template' => '*{text}*',
     'icon'     => 'italic'
   ),
-  'list' => array(
-    'label'    => $this->translation['buttons.list.label'],
+  'ulist' => array(
+    'label'    => $this->translation['buttons.ulist.label'],
     'text'     =>' ',
-    'shortcut' => 'meta+l',
+    'shortcut' => 'meta+u',
     'template' => '- {text}',
-    'icon'     => 'list'
+    'icon'     => 'list-ul'
+  ),
+  'olist' => array(
+    'label'    => $this->translation['buttons.olist.label'],
+    'text'     =>' ',
+    'shortcut' => 'meta+o',
+    'template' => '1. {text}',
+    'icon'     => 'list-ol'
   ),
   'link' => array(
     'label'    => $this->translation['buttons.link.label'],
