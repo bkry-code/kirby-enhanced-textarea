@@ -1,33 +1,6 @@
 # Kirby Enhanced Textarea
 
-![Preview](preview.png?raw=true =500x)
-
-...with the following additions:
-
-## Pagelink button
-
-##### Without selection: Inserts link and page name
-![Pagelink button without selection](pagelink1.gif?raw=true)
-
-##### With selection: Inserts link with selected text
-![Pagelink button with selection](pagelink2.gif?raw=true)
-
-## Visual popup toggle
-
-![Visual popup toggle](popup.gif?raw=true)
-
-
-## Optimized toolbar with smaller buttons and hover effects
-
-![Optimized toolbar](style.gif?raw=true)
-
-## Headline 1 button
-
-![Headline 1 button](h1.gif?raw=true)
-
-## Headline 2 button
-
-![Headline 2 button](h2.gif?raw=true)
+![Preview](preview.png?raw=true)
 
 ## Installation
 
